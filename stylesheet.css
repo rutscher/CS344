@@ -14,7 +14,7 @@ padding:0;
 
 #header {
 position:fixed;
-height:80px;
+height:60px;
 z-index:2;
 width:100%;
 background-color:#FFEAAD;
@@ -24,7 +24,7 @@ margin:auto;
 
 #footer {
 box-shadow:2px -2px 2px #000;
-position:fixed;
+position:relative;
 left:0;
 bottom:0;
 height:60px;
@@ -37,8 +37,8 @@ margin-top: 50px;
 margin-left:30px;
 }
 
-#title h1 {
-margin-top:17px;
+#title1  {
+margin-top:18px;
 text-align:center;
 }
 
@@ -48,11 +48,13 @@ text-align:right;
 
 #contact {
 text-align:right;
-margin-top:-74px;
+margin-top:-65px;
 margin-right:10px;
 }
 
 #donatebutton {
+margin-left: 130px;
+margin-top: -53px;
 width:100px;
 height:40px;
 }
@@ -61,7 +63,7 @@ height:40px;
 z-index:1;
 position:fixed;
 left:0;
-top:80px;
+top:60px;
 height:202px;
 width:120px;
 font-family:Arial, Helvetica, sans-serif;
@@ -92,15 +94,15 @@ z-index:4;
 position:fixed;
 left:0;
 top:0;
-height:80px;
+height:60px;
 width:120px;
 background-color:#73C2FF
 }
 
 #escbutton {
-margin-top:10px;
-margin-left:10px;
-height:60px;
+margin-top:5px;
+margin-left:5px;
+height:50px;
 }
 
 #linkescape {
