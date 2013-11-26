@@ -10,6 +10,8 @@ padding:0;
 	height: 100%;
 	margin: auto;
 	padding-top: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 #header {
@@ -122,4 +124,27 @@ margin-left:800px;
 
 .menu_div ul li a:hover,.menu_div ul li#active {
 background:#FFC4AD;
+}
+
+.involvedParagraphs {
+	margin-left:0px;
+}
+
+#involvedImage1{
+	float:right;
+	margin-right:15px;
+}
+
+.ss{
+	float:right;
+	margin-right:200px;
+}
+
+#button {
+	height: 30px;
+	width: 100px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 60px;
+
 }
