@@ -1,3 +1,5 @@
+
+
 window.onload=function() {
 	 
     $('#test').rssfeed('http://sustainabilityhousewsu.wordpress.com/tag/website-General/feed/');
@@ -6,7 +8,8 @@ window.onload=function() {
 
     $('dt').click(function(e){
     
-    	$(this).nextUntil('dt').slideToggle();
+    $(this).nextUntil('dt').slideToggle();
+
 
 
 });
@@ -24,10 +27,9 @@ function increaseSize(){
 	var size = parseInt($("#main").css("font-size"));
 	$("#main").css("font-size", size + 1 + "pt");
 }
-
 function decreaseSize(){
 	var size = parseInt($("#main").css("font-size"));
-	$("#main").css("font-size", size - (1*.85) + "pt");
+	$("#main").css("font-size", size - 1 + "pt");
 }
 
 var BrowserDetect = {
