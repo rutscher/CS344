@@ -3,7 +3,7 @@
       <title>FAQ</title>
       <link rel="stylesheet" type="text/css" href="stylesheet.css">
       <script src="javascript.js" type="text/javascript"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script></script>
+           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
       <script src="jquery.zrssfeed.min.js" type="text/javascript"></script>   
    </head>
    <div id="header">
@@ -20,7 +20,6 @@
       <button type="button" id="escbutton">ESCAPE!</button>
       <a id="linkescape" href="deletehistory.html"> ? </a>
    </div>
-   <div id="sidebar">
    <div class="menu_div">
       <ul>
          <li><a href="index.html">Home</a></li>
@@ -29,14 +28,17 @@
          <li><a href="programs.html">Programs/Events</a></li>
          <li><a href="faq.html">Who are we?</a></li>
          <li><a href="successstories.php">Success Stories</a></li>
+         <li><a href="faq2.html">FAQ</a></li>
          <li><a href="contact.html">Contact</a></li>
       </ul>
    </div>
    <body>
       <div id="button">
-         <button onclick="increaseSize();">Increase Text Size</button>
-         <button onclick="decreaseSize();">Decrease Text Size</button>
-      </div>
+         <button type="button" onclick="increaseSize();">Increase Text Size</button>
+         </div>
+         <div id="button1">
+         <button type="button" onclick="decreaseSize();">Decrease Text Size</button>
+         </div>
       <div id="main">
          <h1>Get Involved</h1>
          <h3>The Benefits of Serving</h3>
@@ -57,7 +59,7 @@
          <p>
             Please return completed applications to: WRC, 77 East 5th St, Winona, MN 55987 
             or e-mail them to <a href="wrc@wrcofwinona.org">wrc@wrcofwinona.org</a>
-            </b
+         </p>
          <h3>Where do I sign up?</h3>
          <p class="involvedParagraphs">
             klsdfjjklsdjfkjjjklsdfjajsidfjjoqjwjfjijoajsdmifmksdmkmirngon

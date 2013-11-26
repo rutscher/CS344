@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
    <head>
       <title>WRC - Women's Resource Center</title>
@@ -7,22 +6,21 @@
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
       <script src="jquery.zrssfeed.min.js" type="text/javascript"></script>   
    </head>
-   <div id="header">
+    <div id="header">
       <div id="title">
-         <h1>Women's Resource Center of Winona</h1>
+         <h1 id="title1">Women's Resource Center of Winona</h1>
          <p id="contact">      
             <strong>Office Phone:</strong> 507-452-4440</br>
             <strong>Toll Free Helpline:</strong> 877-972-7353</br>
-            <button type="button" id="donatebutton">Donate!</button>
          </p>
       </div>
+      <button type="button" id="donatebutton">Donate!</button>
    </div>
    
    <div id="esc">
       <button type="button" id="escbutton">ESCAPE!</button>
       <a id="linkescape" href="weather.com"> ? </a>
    </div>
-   <div id="sidebar">
    <div class="menu_div">
            <ul>
          <li><a href="index.html">Home</a></li>
@@ -31,16 +29,18 @@
          <li><a href="programs.html">Programs/Events</a></li>
           <li><a href="faq.html">Who are we?</a></li>
          <li><a href="successstories.php">Success Stories</a></li>
+         <li><a href="faq2.html">FAQ</a></li>
          <li><a href="contact.html">Contact</a></li>
       </ul>
    </div>
    <body>
    <div id="button">
-   		<button onclick="increaseSize();">Increase Text Size</button>
+         <button onclick="increaseSize();">Increase Text Size</button>
+         </div>
+         <div id="button1">
          <button onclick="decreaseSize();">Decrease Text Size</button>
          </div>
    <div id="main">
-      <div id="feed">
 	  <h1>Success Stories</h1>
 		<?php for ($i=0;$i<5;$i++){
 			if ($i / 2 == 0){
@@ -65,9 +65,8 @@
 		 </div>
 		 <?php }?>
 		
-         <div id="test"></div>
+         
       </div>
-    </div>
    </body>
    <div id="footer">
       <div id="footercontact">

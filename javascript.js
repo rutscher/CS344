@@ -7,6 +7,8 @@ window.onload=function() {
     $('dt').click(function(e){
     
     	$(this).nextUntil('dt').slideToggle();
+
+
 });
 
 		BrowserDetect;
@@ -15,15 +17,17 @@ window.onload=function() {
 		detectfirefox;
 
 
+
 }
 
 function increaseSize(){
 	var size = parseInt($("#main").css("font-size"));
 	$("#main").css("font-size", size + 1 + "pt");
 }
+
 function decreaseSize(){
 	var size = parseInt($("#main").css("font-size"));
-	$("#main").css("font-size", size - 1 + "pt");
+	$("#main").css("font-size", size - (1*.85) + "pt");
 }
 
 var BrowserDetect = {
